@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo">Krishna Sahu</a>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero" id="home">
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <p class="section-title"><span>01</span>Welcome</p>
+                    <h1>Hi, I'm Krishna Sahu — a <span class="animated-line"><span class="typed-text"></span></span></h1>
+                    <p>B.Sc. IT student, frontend web developer, and C/C++ & Python programmer from Mumbai, Maharashtra. I enjoy building responsive websites with modern UI, clean code, and smooth interactions.</p>
+                    <div class="cta-group">
+                        <a class="btn btn-primary" href="#projects">View Projects</a>
+                        <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-card reveal">
+                    <div class="hero-card-content">
+                        <h2>About Me</h2>
+                        <p>I am a passionate learner with a strong interest in web development, problem solving, and building real-world digital solutions. My goal is to grow into a successful Software Developer and Full Stack Developer.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <strong>2nd</strong>
+                                Year B.Sc. IT
+                            </div>
+                            <div class="stat">
+                                <strong>3+</strong>
+                                Core skills
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-title"><span>02</span><h2>About Me</h2></div>
+            <div class="card-grid">
+                <article class="card reveal">
+                    <h3>Profile</h3>
+                    <p>I am Krishna Sahu, a passionate B.Sc. Information Technology student with a strong interest in web development and programming. I enjoy creating modern, responsive websites using HTML, CSS, and JavaScript while continuously improving my skills in C, C++, and Python.</p>
+                </article>
+                <article class="card reveal">
+                    <h3>Strengths</h3>
+                    <ul>
+                        <li>Fast Learner</li>
+                        <li>Problem Solving</li>
+                        <li>Self Motivated</li>
+                        <li>Team Player</li>
+                        <li>Quick Adaptability</li>
+                        <li>Creative Thinking</li>
+                        <li>Time Management</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-title"><span>03</span><h2>Featured Projects</h2></div>
+            <div class="card-grid">
+                <article class="card reveal project-card">
+                    <h3>Online Clipboard</h3>
+                    <p>A web application that allows users to save and access text snippets online.</p>
+                    <div class="project-links">
+                        <a href="#">HTML</a>
+                        <a href="#">CSS</a>
+                        <a href="#">JavaScript</a>
+                    </div>
+                </article>
+                <article class="card reveal project-card">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Designed and developed a responsive personal portfolio website with animations, project showcase, and contact section.</p>
+                    <div class="project-links">
+                        <a href="#">HTML</a>
+                        <a href="#">CSS</a>
+                        <a href="#">JavaScript</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-title"><span>04</span><h2>Skills</h2></div>
+            <div class="card-grid">
+                <article class="card reveal">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-chip">C</span>
+                        <span class="skill-chip">C++</span>
+                        <span class="skill-chip">Python</span>
+                    </div>
+                </article>
+                <article class="card reveal">
+                    <h3>Web Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-chip">HTML5</span>
+                        <span class="skill-chip">CSS3</span>
+                        <span class="skill-chip">JavaScript</span>
+                        <span class="skill-chip">Responsive Design</span>
+                    </div>
+                </article>
+                <article class="card reveal">
+                    <h3>Database & Tools</h3>
+                    <div class="skill-list">
+                        <span class="skill-chip">PL/SQL</span>
+                        <span class="skill-chip">VS Code</span>
+                        <span class="skill-chip">Git</span>
+                        <span class="skill-chip">GitHub</span>
+                        <span class="skill-chip">MS Word</span>
+                        <span class="skill-chip">MS Excel</span>
+                        <span class="skill-chip">MS PowerPoint</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="section-title"><span>05</span><h2>Contact</h2></div>
+            <div class="contact-grid">
+                <div class="contact-copy reveal">
+                    <p>I am eager to learn new technologies, solve real-world problems, and contribute to innovative projects. Feel free to connect with me for opportunities, collaboration, or freelance work.</p>
+                    <div class="contact-card">
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:krishnasahu7045@gmail.com">krishnasahu7045@gmail.com</a></p>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:+917045725374">+91 7045725374</a></p>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Mumbai, Maharashtra, India</p>
+                        </div>
+                    </div>
+                </div>
+                <article class="card reveal">
+                    <h3>Education</h3>
+                    <p><strong>B.Sc. Information Technology</strong><br>Thakur Shyamnarayan Degree College<br>Mumbai, Maharashtra<br>Current Year: Second Year (SY B.Sc. IT)</p>
+                    <p style="margin-top: 1rem;"><strong>Certification</strong><br>C++ Programming Certificate</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Krishna Sahu | Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
