@@ -427,7 +427,7 @@ footer {
 }
 
 .animated-line span {
-    display: inline-block;
+    display: block;
     animation: typing 2.8s steps(28) 1 forwards,
                blink 0.75s step-end infinite;
     white-space: nowrap;
